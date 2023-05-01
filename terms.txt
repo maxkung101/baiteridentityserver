@@ -1,0 +1,20 @@
+TERMS OF USE
+
+   1. Introduction
+
+By downloading this repo, you agree with these terms and conditions. You can only agree with these
+terms if you understand programming. We may update these terms periodically. Please take some time
+to read the user agreement before installing this repo.
+
+   2. Legal Rights
+
+You must only use this api to protect yourself against scammers. This program was specifically
+made for scambaiting.
+
+   3. Liability
+
+We are not responsible for any crimes commited involving this code.
+
+   4. Warranty Information
+
+We do not do warranties. Your own access is at your personal risk.
