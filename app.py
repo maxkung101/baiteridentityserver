@@ -34,7 +34,7 @@ def baiterIdentity():
 @app.errorhandler(404)
 def invalid_route(e):
         #returns an invalid route
-        return jsonify({'errorCode' : 404, 'title' : 'Error code 404', 'message' : 'Route not found'})
+        return jsonify({'errorCode' : 404, 'title' : 'Error code 404', 'message' : 'Route not found', 'output_str' : 'Route not found'})
 
 if __name__ == '__main__':
         app.run(port=8080, debug=True)
