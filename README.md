@@ -1,6 +1,9 @@
 # Baiter Identity Api
 A server program used to generate a false identity for scambaiting
+
 Runs on Linux
+
+[Example client](https://github.com/maxkung101/baiteridentityclient)
 
 Introduction
 ------------
