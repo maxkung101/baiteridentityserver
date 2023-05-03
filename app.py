@@ -9,23 +9,8 @@ app.wsgi_app = ProxyFix(
 )
 
 @app.route('/')
-def hello():
-        #returns a success route
-        return jsonify({'errorCode' : 'none', 'title' : 'Hello', 'message' : 'Success'})
-
-@app.route('/baiterIdentity')
 def baiterIdentity():
-        #returns a fake identity
-        try:
-                output = subprocess.check_output(['rig'])
-                output_str = output.decode('utf-8')
-                return jsonify({'errorCode' : 'none', 'title' : 'Fake identity successful', 'message' : output_str})
-        except subprocess.CalledProcessError as e:
-                return jsonify({'errorCode' : 'Called Process Error', 'title' : 'Fake identity failed', 'message' : e.output.decode('utf-8')}), e.returncode
-
-@app.route('/creditcard')
-def creditcard():
-        #returns a fake card number
+        #returns a fake identity and a fake card number
         heading = random.randint(2, 5)
         message = str(heading)
         title = ""
@@ -40,9 +25,11 @@ def creditcard():
                 message = message + str(random.randint(0, 9)) + str(random.randint(0, 9)) + str(random.randint(0, 9))
         message = message + " " + str(random.randint(0, 9)) + str(random.randint(0, 9)) + str(random.randint(0, 9)) + str(random.randint(0, 9)) + " " + str(random.randint(0, 9)) + str(random.randint(0, 9)) + str(random.randint(0, 9)) + str(random.randint(0, 9)) + " " + str(random.randint(0, 9)) + str(random.randint(0, 9)) + str(random.randint(0, 9)) + str(random.randint(0, 9))
         try:
-                return jsonify({'errorCode' : 'none', 'title' : title, 'message' : message})
-        except:
-                return jsonify({'errorCode' : 'Other', 'title' : 'Fake card failed', 'message' : 'error'})
+                output = subprocess.check_output(['rig'])
+                output_str = output.decode('utf-8')
+                return jsonify({'errorCode' : 'none', 'title' : title, 'message' : message, 'output_str' : output_str})
+        except subprocess.CalledProcessError as e:
+                return jsonify({'errorCode' : 'Called Process Error', 'title' : 'Failed', 'message' : e.output.decode('utf-8'), 'output_str' : e.output.decode('utf-8')}), e.returncode
 
 @app.errorhandler(404)
 def invalid_route(e):
