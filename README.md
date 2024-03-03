@@ -1,13 +1,11 @@
 # Baiter Identity Api
-A server program used to generate a false identity for scambaiting
+People in the United States have been receiving unwanted phone calls from scammers who want personal information. Baiter Identity Api is a Linux server program used to generate a false identity for scambaiting and give scambaiters information of a fake person.
 
-Runs on Linux
+Note
+----
+You must use this program only to talk to scammers.
 
 [Example client](https://github.com/maxkung101/baiteridentityclient)
-
-Introduction
-------------
-People in the United States have been receiving unwanted phone calls from scammers who want personal information. This repository gives scambaiters information of a fake person.
 
 Download source code
 --------------------
@@ -15,7 +13,6 @@ Please read the [terms of use](https://github.com/maxkung101/baiteridentityserve
 ```
 $ gh repo clone maxkung101/baiteridentityserver
 ```
-Note: You must use this program only to talk to scammers.
 
 Credits
 -------
