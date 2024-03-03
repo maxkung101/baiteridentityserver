@@ -5,7 +5,9 @@ Note
 ----
 You must use this program only to talk to scammers.
 
-[Example client](https://github.com/maxkung101/baiteridentityclient)
+Example client
+--------------
+[https://github.com/maxkung101/baiteridentityclient](https://github.com/maxkung101/baiteridentityclient)
 
 Download source code
 --------------------
