@@ -18,7 +18,7 @@ By using this repo, you agree to use it solely for scambaiting.
 ### Dependencies
 The random identity generator command is required for your Linux/Unix machine to run Baiter Identity Api. To install, process the following command.
 ```
-sudo apt-get install rig
+$ sudo apt-get install rig
 ```
 ### Install
 You can download Baiter Identity Api from [the releases page](https://github.com/maxkung101/baiteridentityserver/releases/tag/v0.0.0).
