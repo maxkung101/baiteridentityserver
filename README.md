@@ -18,7 +18,7 @@ By using this repo, you agree to use it solely for scambaiting.
 ### Install
 You can download Baiter Identity Api from [the releases page](https://github.com/maxkung101/baiteridentityserver/releases/tag/v0.0.0).
 
-Alternatively, you can download the source code on your Linux/Unix machine by processing the following command.
+Alternatively, you can download the source code to your Linux/Unix machine by processing the following command.
 ```
 $ gh repo clone maxkung101/baiteridentityserver
 ```
