@@ -11,9 +11,6 @@ Please read the following before downloading.
 
 By using this repo, you agree to use it solely for scambaiting.
 
-### Example client
-[https://github.com/maxkung101/baiteridentityclient](https://github.com/maxkung101/baiteridentityclient)
-
 ## Setup
 ### Dependencies
 The random identity generator command is required for your Linux/Unix machine to run Baiter Identity Api. To install, process the following command.
@@ -26,6 +23,12 @@ You can download Baiter Identity Api from [the releases page](https://github.com
 Alternatively, you can download the source code to your Linux/Unix machine by processing the following command.
 ```
 $ gh repo clone maxkung101/baiteridentityserver
+```
+
+### Testing
+You can test the api with an [example client](https://github.com/maxkung101/baiteridentityclient) that I made. Use the following command to download.
+```
+$ gh repo clone maxkung101/baiteridentityclient
 ```
 
 ## About
