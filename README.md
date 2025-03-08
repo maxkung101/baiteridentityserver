@@ -3,6 +3,7 @@ People in the United States have been receiving unwanted phone calls from scamme
 
 ## Introduction
 ### Usage
+Please read the following before downloading.
 
 * You must only use this api to protect yourself while answering scam phone calls.
 * We are not responsible for any crimes commited involving this code.
@@ -14,8 +15,10 @@ By using this repo, you agree to use it solely for scambaiting.
 [https://github.com/maxkung101/baiteridentityclient](https://github.com/maxkung101/baiteridentityclient)
 
 ## Setup
-### Download source code
-Please read the [terms of use](https://github.com/maxkung101/baiteridentityserver/blob/master/terms.txt) before downloading the source code.
+### Install
+You can download Baiter Identity Api from [the releases page](https://github.com/maxkung101/baiteridentityserver/releases/tag/v0.0.0).
+
+Alternatively, you can download the source code on your Linux/Unix machine by processing the following command.
 ```
 $ gh repo clone maxkung101/baiteridentityserver
 ```
